@@ -57,6 +57,7 @@
                                         @endif
                                         <th><a href="{{ URL::route('droplet-refresh', $droplet->id) }}" class="btn btn-default"><i class="fa fa-refresh" aria-hidden="true"></i>
                                             </a>
+²
                                             <a onclick="confirm('Are you sure?')" href="{{ URL::route('droplet-delete', $droplet->id) }}" class="btn btn-danger"><i class="fa fa-times" aria-hidden="true"></i>
                                             </a></th>
                                     </tr>
